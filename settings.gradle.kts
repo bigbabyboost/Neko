@@ -28,7 +28,7 @@ dependencyResolutionManagement {
 
 enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 
-rootProject.name = "Neko"
+rootProject.name = "Nekomiya"
 include(":app")
 include(":core")
 include(":constants")

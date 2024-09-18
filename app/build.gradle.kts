@@ -18,17 +18,17 @@ val supportedAbis = setOf("armeabi-v7a", "arm64-v8a", "x86", "x86_64")
 
 android {
     compileSdk = AndroidConfig.compileSdkVersion
-    namespace = "org.nekomanga"
+    namespace = "org.bigbabyboost"
 
     defaultConfig {
         minSdk = AndroidConfig.minSdkVersion
         targetSdk = AndroidConfig.targetSdkVersion
-        applicationId = "org.nekomanga.neko"
+        applicationId = "org.bigbabyboost.nekomiya"
         versionCode = 13
         versionName = "2.17.1"
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         multiDexEnabled = true
-        setProperty("archivesBaseName", "Neko")
+        setProperty("archivesBaseName", "Nekomiya")
         buildConfigField("String", "COMMIT_COUNT", "\"${getCommitCount()}\"")
         buildConfigField("String", "COMMIT_SHA", "\"${getGitSha()}\"")
         buildConfigField("String", "BUILD_TIME", "\"${getBuildTime()}\"")
