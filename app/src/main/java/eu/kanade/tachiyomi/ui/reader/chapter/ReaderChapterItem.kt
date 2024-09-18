@@ -52,7 +52,7 @@ class ReaderChapterItem(val chapter: Chapter, val manga: Manga, val isCurrent: B
                 if (item.isCurrent) {
                     ResourcesCompat.getFont(
                         itemView.context,
-                        R.font.montserrat_black,
+                        R.font.roboto_black,
                     )
                 } else {
                     null

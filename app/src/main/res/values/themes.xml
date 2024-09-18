@@ -70,8 +70,8 @@
         <item name="bottomNavigationStyle">@style/Widget.Tachiyomi.BottomNavigationView</item>
         <item name="navigationRailStyle">@style/Widget.Tachiyomi.NavigationRail</item>
         <item name="elevationOverlayEnabled">false</item>
-        <item name="android:fontFamily">@font/montserrat</item>
-        <item name="fontFamily">@font/montserrat</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="fontFamily">@font/roboto</item>
         <item name="colorOnHopper">@color/md_white_1000</item>
         <item name="unreadBadgeColor">@color/md_black_1000</item>
         <item name="colorOnUnreadBadge">@color/md_white_1000</item>

@@ -9,34 +9,34 @@ import org.nekomanga.R
 
 object Typefaces {
     private val defaultTypography = Typography()
-    val montserrat =
+    val roboto =
         FontFamily(
-            Font(R.font.montserrat_thin, FontWeight.Thin),
-            Font(R.font.montserrat_black, FontWeight.Black),
-            Font(R.font.montserrat_bold, FontWeight.Bold),
-            Font(R.font.montserrat_extra_bold, FontWeight.ExtraBold),
-            Font(R.font.montserrat_medium, FontWeight.Medium),
-            Font(R.font.montserrat_semi_bold, FontWeight.SemiBold),
-            Font(R.font.montserrat_regular, FontWeight.Normal),
+            Font(R.font.roboto_thin, FontWeight.Thin),
+            Font(R.font.roboto_black, FontWeight.Black),
+            Font(R.font.roboto_bold, FontWeight.Bold),
+            Font(R.font.roboto_extra_bold, FontWeight.ExtraBold),
+            Font(R.font.roboto_medium, FontWeight.Medium),
+            Font(R.font.roboto_semi_bold, FontWeight.SemiBold),
+            Font(R.font.roboto_regular, FontWeight.Normal),
         )
 
     val appTypography =
         Typography(
-            displayLarge = defaultTypography.displayLarge.copy(fontFamily = montserrat),
-            displayMedium = defaultTypography.displayMedium.copy(fontFamily = montserrat),
-            displaySmall = defaultTypography.displaySmall.copy(fontFamily = montserrat),
-            headlineLarge = defaultTypography.headlineLarge.copy(fontFamily = montserrat),
-            headlineMedium = defaultTypography.headlineMedium.copy(fontFamily = montserrat),
-            headlineSmall = defaultTypography.headlineSmall.copy(fontFamily = montserrat),
-            titleLarge = defaultTypography.titleLarge.copy(fontFamily = montserrat),
-            titleMedium = defaultTypography.titleMedium.copy(fontFamily = montserrat),
-            titleSmall = defaultTypography.titleSmall.copy(fontFamily = montserrat),
-            bodyLarge = defaultTypography.bodyLarge.copy(fontFamily = montserrat),
-            bodyMedium = defaultTypography.bodyMedium.copy(fontFamily = montserrat),
-            bodySmall = defaultTypography.bodySmall.copy(fontFamily = montserrat),
-            labelLarge = defaultTypography.labelLarge.copy(fontFamily = montserrat),
-            labelMedium = defaultTypography.labelMedium.copy(fontFamily = montserrat),
-            labelSmall = defaultTypography.labelSmall.copy(fontFamily = montserrat),
+            displayLarge = defaultTypography.displayLarge.copy(fontFamily = roboto),
+            displayMedium = defaultTypography.displayMedium.copy(fontFamily = roboto),
+            displaySmall = defaultTypography.displaySmall.copy(fontFamily = roboto),
+            headlineLarge = defaultTypography.headlineLarge.copy(fontFamily = roboto),
+            headlineMedium = defaultTypography.headlineMedium.copy(fontFamily = roboto),
+            headlineSmall = defaultTypography.headlineSmall.copy(fontFamily = roboto),
+            titleLarge = defaultTypography.titleLarge.copy(fontFamily = roboto),
+            titleMedium = defaultTypography.titleMedium.copy(fontFamily = roboto),
+            titleSmall = defaultTypography.titleSmall.copy(fontFamily = roboto),
+            bodyLarge = defaultTypography.bodyLarge.copy(fontFamily = roboto),
+            bodyMedium = defaultTypography.bodyMedium.copy(fontFamily = roboto),
+            bodySmall = defaultTypography.bodySmall.copy(fontFamily = roboto),
+            labelLarge = defaultTypography.labelLarge.copy(fontFamily = roboto),
+            labelMedium = defaultTypography.labelMedium.copy(fontFamily = roboto),
+            labelSmall = defaultTypography.labelSmall.copy(fontFamily = roboto),
         )
 
     val LocalTypography = staticCompositionLocalOf { appTypography }

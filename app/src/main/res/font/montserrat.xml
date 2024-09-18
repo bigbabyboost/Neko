@@ -3,38 +3,38 @@
     <font
         app:fontStyle="normal"
         app:fontWeight="100"
-        app:font="@font/montserrat_thin" />
+        app:font="@font/roboto_thin" />
     <font
         app:fontStyle="italic"
-        app:fontWeight="200"
-        app:font="@font/montserrat_thin" />
-    <font
-        app:fontStyle="italic"
-        app:fontWeight="300"
-        app:font="@font/montserrat_regular" />
+        app:fontWeight="100"
+        app:font="@font/roboto_thin" />
     <font
         app:fontStyle="italic"
         app:fontWeight="400"
-        app:font="@font/montserrat_regular" />
+        app:font="@font/roboto_regular" />
+    <font
+        app:fontStyle="italic"
+        app:fontWeight="400"
+        app:font="@font/roboto_regular" />
     <font
         app:fontStyle="italic"
         app:fontWeight="500"
-        app:font="@font/montserrat_medium" />
+        app:font="@font/roboto_medium" />
     <font
         app:fontStyle="italic"
         app:fontWeight="600"
-        app:font="@font/montserrat_semi_bold" />
+        app:font="@font/roboto_semi_bold" />
     <font
         app:fontStyle="italic"
         app:fontWeight="700"
-        app:font="@font/montserrat_bold" />
+        app:font="@font/roboto_bold" />
     <font
         app:fontStyle="italic"
         app:fontWeight="800"
-        app:font="@font/montserrat_extra_bold" />
+        app:font="@font/roboto_extra_bold" />
     <font
         app:fontStyle="italic"
         app:fontWeight="900"
-        app:font="@font/montserrat_black" />
+        app:font="@font/roboto_black" />
 
 </font-family>
