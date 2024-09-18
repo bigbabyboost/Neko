@@ -46,7 +46,7 @@ jobs:
         with:
           path: app/google-services.json
           contents: ${{ secrets.GOOGLE_SERVICE_JSON }}
-          write-mode: overwrite # optional, default is preserve
+          write-mode: overwrite # optional, default is preserved
 
       - name: Build app
         uses: eskatos/gradle-command-action@v3
