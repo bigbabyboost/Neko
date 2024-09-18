@@ -30,7 +30,7 @@ jobs:
         run: |
           ${ANDROID_SDK_ROOT}/cmdline-tools/latest/bin/sdkmanager  "build-tools;29.0.3"
 
-      - name: Clone repo
+      - name: Clonee repo
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
