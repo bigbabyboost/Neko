@@ -20,7 +20,7 @@ simpleIconsVersion = "1.0.0"
 sqliteAndroidVersion = "3.43.0"
 taptargetviewVersion = "1.14.0"
 sqliteVersion = "2.4.0"
-viewTooltipVersion = "f79a8955ef"
+viewTooltipVersion = "1.0.4"
 
 
 [libraries]
