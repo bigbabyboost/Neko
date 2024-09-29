@@ -18,8 +18,8 @@ rxbindingVersion = "1.0.1"
 sandwichVersion = "2.0.9"
 simpleIconsVersion = "1.0.0"
 sqliteAndroidVersion = "3.39.2"
-sqliteVersion = "2.3.1"
 taptargetviewVersion = "1.14.0"
+sqliteVersion = "2.4.0"
 viewTooltipVersion = "f79a8955ef"
 
 
@@ -28,7 +28,7 @@ cascade-compose = { module = "me.saket.cascade:cascade-compose", version.ref = "
 cascade = { module = "me.saket.cascade:cascade", version.ref = "cascadeVersion" }
 injekt-core = "uy.kohesive.injekt:injekt-core:1.16.1"
 material = "com.google.android.material:material:1.12.0"
-desugaring = "com.android.tools:desugar_jdk_libs:2.0.4"
+desugaring = "com.android.tools:desugar_jdk_libs:2.1.2"
 photoView = { module = "com.github.chrisbanes:PhotoView", version.ref = "photoViewVersion" }
 play-services = "com.google.android.gms:play-services-gcm:17.0.0"
 flex-box = "com.google.android.flexbox:flexbox:3.0.0"
