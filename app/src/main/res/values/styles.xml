@@ -378,8 +378,8 @@
     </style>
 
     <style name="Theme.TextAppearance.Chip" parent="TextAppearance.MaterialComponents.Chip">
-        <item name="android:textSize">13sp</item>
-        <item name="fontFamily">@font/roboto_medium</item>
+        <item name="android:textSize">11sp</item>
+        <item name="fontFamily">@font/roboto_regular</item>
     </style>
 
 </resources>

@@ -3,23 +3,23 @@
 
 
     <style name="Neko.Preference" parent="PreferenceThemeOverlay">
-        <item name="fontFamily">@font/roboto_medium</item>
+        <item name="fontFamily">@font/roboto_regular</item>
         <item name="android:textColorSecondary">@color/text_color_high_emphasis</item>
     </style>
 
     <style name="Neko.Button" parent="Theme.Widget.Button"></style>
 
     <style name="Neko.Button.Primary" parent="Theme.Widget.Button.Primary">
-        <item name="fontFamily">@font/roboto_medium</item>
+        <item name="fontFamily">@font/roboto_regular</item>
     </style>
 
     <style name="Neko.Button.TextButton" parent="Theme.Widget.Button.TextButton">
-        <item name="fontFamily">@font/roboto_medium</item>
+        <item name="fontFamily">@font/roboto_regular</item>
     </style>
 
 
     <style name="chipText" parent="TextAppearance.MaterialComponents.Chip">
-        <item name="fontFamily">@font/roboto_medium</item>
+        <item name="fontFamily">@font/roboto_regular</item>
     </style>
 
     <style name="cursor" parent="ThemeOverlay.MaterialComponents.TextInputEditText.OutlinedBox">
@@ -35,7 +35,7 @@
     </style>
 
     <style name="Neko.Toolbar.TitleText" parent="">
-        <item name="fontFamily">@font/roboto_medium</item>
+        <item name="fontFamily">@font/roboto_regular</item>
         <item name="android:letterSpacing">-.023</item>
         <item name="android:textSize">16sp</item>
     </style>
