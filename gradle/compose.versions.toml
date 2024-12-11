@@ -1,5 +1,5 @@
 [versions]
-compose_version = "1.7.5"
+compose_version = "1.7.6"
 accompanist_version = "0.36.0"
 compose_material3_version = "1.2.1"
 markdown_version = "0.27.0"
